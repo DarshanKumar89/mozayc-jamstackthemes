@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "JAMstack Themes"
+title = "Mozayc Themes"
 theme = "jamstackthemes"
 paginate = 30
 summaryLength = 10
@@ -20,7 +20,7 @@ pygmentsUseClasses = true
   [theme_card]
     show_archetype_icons = false
     show_services_icons = false
- 
+
 [taxonomies]
   ssg = "ssg"
   cms = "cms"

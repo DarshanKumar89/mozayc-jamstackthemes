@@ -1,15 +1,15 @@
-# Jamstack Themes
+# MOZAYC-Jamstack Themes
 
 A list of Themes and Starters for JAMstack Sites. https://jamstackthemes.dev
 
 ## Submit A Theme
 
-Anyone can submit an open-source theme to the gallery using a PR. 
+Anyone can submit an open-source theme to the gallery using a PR.
 
 1. Fork this repo and create a new markdown `.md` file in `content/theme` folder. For example `hugo-air-.md`
 2. Edit the markdown file with the required front-matter as shown below.
 3. Submit a pull-request with the title **Theme Submission: theme-name**
-4. You **do not** need to generate the Github stars or theme screenshots. Please just submit the markdown file in the PR. 
+4. You **do not** need to generate the Github stars or theme screenshots. Please just submit the markdown file in the PR.
 
 The markdown file should contain the following front-matter.
 
@@ -39,22 +39,22 @@ This theme is a lightweight starter kit. It also gives you a well organised star
 
 ## Features
 
-* Customisable design tokens to make it your own  
-* Customisable global data and navigation  
-* Tags and tag archives  
-* Progressively enhanced, semantic and accessible  
+* Customisable design tokens to make it your own
+* Customisable global data and navigation
+* Tags and tag archives
+* Progressively enhanced, semantic and accessible
 ```
 
 ## Submitting New Categories (Taxonomy Terms)
 Themes can be categorised with terms from these 4 taxonomies. `ssg`, `cms`, `css` and `archetype`
 
-If you are adding a theme which uses an SSG or CMS which doesnt exist you will need to add it as part of your pull-request. 
+If you are adding a theme which uses an SSG or CMS which doesnt exist you will need to add it as part of your pull-request.
 
 1. Create a new taxonomy term by creating the markdown file under `content/ssg/` or `content/cms`. For example let's say you wanted to add a new SSG called "Super Duper". Add a file under `content/ssg/super-duper/_index.md` and add the following frontmatter
 ```
 ---
 title: "Super Duper"
-icon: images/icons/super-duper.svg 
+icon: images/icons/super-duper.svg
 official_url: https://super-duper.org
 ---
 ```
@@ -118,7 +118,7 @@ npm run capture-screenshots
 
 ### Generate Thumbnails
 
-Will generate thumbnails for each theme. Uses Hires screenshots from `static/capture` and stores files in `static/images/theme/thumbnails`. 
+Will generate thumbnails for each theme. Uses Hires screenshots from `static/capture` and stores files in `static/images/theme/thumbnails`.
 
 ```
 npm run generate-thumbnails
